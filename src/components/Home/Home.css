@@ -1,0 +1,98 @@
+.home-container {
+    background-image: url('../assets/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+    padding: 40px 20px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #927d57;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .social-icons {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    display: flex;
+    gap: 20px;
+    font-size: 24px;
+  }
+  
+  .social-icons .icon {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .social-icons .icon:hover {
+    transform: scale(1.2);
+  }
+  
+  .center-content {
+    text-align: center;
+    margin-top: 100px;
+    max-width: 800px;
+  }
+  
+  .logo {
+    width: 22rem;
+    margin-bottom: 10px;
+    height: 10rem;
+  }
+  
+  .tagline {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .sanskrit {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .sub-sanskrit {
+    font-style: italic;
+    color: #6f5c3d;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #5a4935;
+  }
+  
+  .bottom-nav {
+    position: absolute;
+    bottom: 100px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .nav-item {
+    font-weight: bold;
+    color: #a68c5c;
+    position: relative;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .nav-item:hover {
+    transform: scale(1.1);
+  }
+  
+  .nav-item::after {
+    content: '';
+    display: block;
+    height: 2px;
+    background-color: #a68c5c;
+    width: 100%;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+  }
+  
